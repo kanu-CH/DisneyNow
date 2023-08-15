@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>DisneyNow | Popular Disney</title>
+</head>
+<body>
+    <div class="home">
+    <header>
+        <a href="#" class="logo">DisneyNow</a>
+        <div class="menu-icon">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <ul class="nav">
+            <li><a href="#"><i class="fa-solid fa-house"></i></a></li>
+            <li><a href="#">Fantasy</a></li>
+            <li><a href="#">Comedy</a></li>
+            <li><a href="#">Trending</a></li>
+            <li><a href="#">Watchist</a></li>
+        </ul>
+
+    </header>
+        <div class="banner">
+            <div class="content active">
+                    <img style="width: 36vw;" src="./images/the-little-mermaid-title.png" alt="" class="movie-title">
+                <h4>
+                    <span>2023</span><span><i>12+</i></span><span>2h 15min</span><span>Fantasy/Musical</span>
+                </h4>
+                <p>
+                    The youngest of King Triton's daughters, Ariel is a beautiful and spirited young mermaid with a thirst for adventure. Longing to find out more about the world beyond the sea, Ariel visits the surface and falls for the dashing Prince Eric. Following her heart, she makes a deal with the evil sea witch, Ursula, to experience life on land.
+                </p>
+                <div class="button">
+                    <a href="#"><i class="fa-solid fa-play"></i> Watch</a>
+                    <a href="#"><i class="fa-solid fa-plus"></i> Watchlist</a>
+                </div>
+            </div>
+            <div class="carousel-box">
+                <div class="carousel">
+                    <div class="carousel-item" onclick="changeBg('./images/movies/bg-the-little-mermaid.jpg', './images/the-little-mermaid-title.png', 'https://youtu.be/kpGo2_d3oYE', ' The youngest of King Triton`s daughters, Ariel is a beautiful and spirited young mermaid with a thirst for adventure. Longing to find out more about the world beyond the sea, Ariel visits the surface and falls for the dashing Prince Eric. Following her heart, she makes a deal with the evil sea witch, Ursula, to experience life on land.', '<span>2023</span><span><i>12+</i></span><span>2h 15min</span><span>Fantasy/Musical</span>')">
+                        <img src="./images/movies/the-little-mermaid.jpg" alt=""> 
+                    </div>
+                    <div class="carousel-item" onclick="changeBg('./images/movies/bg-aladdin2.jpg', './images/aladdin-title.png', 'https://youtu.be/-G5XI61Y9ms', 'Aladdin, a kind thief, woos Jasmine, the princess of Agrabah, with the help of Genie. When Jafar, the grand vizier, tries to usurp the king, Jasmine, Aladdin and Genie must stop him from succeeding.', '<span>2019</span><span><i>12+</i></span><span>2h 08min</span><span> Romance/Family</span>')">
+                        <img src="./images/movies/aladdin.jpg" alt="">
+                    </div>
+                    <div class="carousel-item" onclick="changeBg('./images/movies/bg-alice.jpg', './images/alice-title.png', 'https://youtu.be/9POCgSRVvf0', 'Alice, now 19 years old, follows a rabbit in a blue coat to a magical wonderland from her dreams where she is reunited with her friends who make her realise her true destiny.', '<span>2010</span><span><i>10+</i></span><span>1h 48min</span><span>Fantasy/Adventure</span>')">
+                        <img src="./images/movies/alice.jpg" alt="">
+                    </div>
+                    <div class="carousel-item" onclick="changeBg('./images/movies/bg-the-avatar.jpg', './images/the-avatar-title.png', 'https://youtu.be/d9MyW72ELq0', 'Jake Sully lives with his newfound family formed on the extrasolar moon Pandora. Once a familiar threat returns to finish what was previously started, Jake must work with Neytiri and the army of the Na`vi race to protect their home.','<span>2022</span><span><i>12+</i></span><span>3h 12min</span><span>Sci-fi/Action</span>')">
+                        <img src="./images/movies/the-avatar.jpg" alt="">
+                    </div>
+                    <div class="carousel-item" onclick="changeBg('./images/movies/bg-the-beauty-and-the-beast.jpg', './images/the-beauty-and-the-beast-title.png', 'https://youtu.be/OvW_L8sTu5E', 'Belle embarks on a journey to save her father from a creature that has locked him in his dungeon. Eventually, she learns that the beast is an enchanted prince who has been cursed.', '<span>2017</span><span><i>12+</i></span><span>2h 09min</span><span>Romance/Fantasy</span>')">
+                        <img src="./images/movies/the-beauty-and-the-beast.jpg" alt="">
+                    </div>
+                    <div class="carousel-item" onclick="changeBg('./images/movies/bg-encanto.jpg', './images/the-encanto-title.png', 'https://youtu.be/CaimKeDcudo', 'The Madrigals are an extraordinary family who live hidden in the mountains of Colombia in a charmed place called the Encanto. The magic of the Encanto has blessed every child in the family with a unique gift -- every child except Mirabel. However, she soon may be the Madrigals last hope when she discovers that the magic surrounding the Encanto is now in danger.', '<span>2021</span><span><i>12+</i></span><span>1h 49min</span><span> Family/Comedy</span>')">
+                        <img src="./images/movies/encanto.jpg" alt="">
+                    </div>
+                    <div class="carousel-item" onclick="changeBg('./images/movies/bg-maleficent.jpg', './images/maleficent-title.png', 'https://youtu.be/n0OFH4xpPr4', 'Maleficent alienates herself from Aurora when she opposes her engagement with Prince Phillip. Unknown to them, an enemy lurks, waiting to capitalise on their discord and destroy all that they love.', '<span>2019</span><span><i>12+</i></span><span>1h 58min</span><span>Fairy tale/Action</span>')">
+                        <img src="./images/movies/maleficent.jpg" alt="">
+                    </div>
+                    <div class="carousel-item" onclick="changeBg('./images/movies/bg-the-mulan2.jpg', './images/the-mulan-title.png', 'https://youtu.be/KK8FHdFluOQ', 'A girl disguises as a male warrior and joins the imperial army in order to prevent her sick father from being forced to enlist as he has no male heir', '<span>2022</span><span><i>12+</i></span><span>1h 55min</span><span>Action/Fantasy</span>')">
+                        <img src="./images/movies/mulan.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <a href="https://youtu.be/kpGo2_d3oYE" id="trailer" class="play"><i class="fa-solid fa-circle-play"></i>Watch Trailer</a>
+            <ul class="sci">
+                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.carousel').carousel();
+          });
+
+          $(document).ready(function () {
+            $(".menu-icon").click(function () {
+                $(".nav").toggleClass("active");
+            });
+        });
+    </script>
+</body>
+</html>
